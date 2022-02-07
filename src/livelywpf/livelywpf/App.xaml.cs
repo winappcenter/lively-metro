@@ -169,7 +169,7 @@ namespace livelywpf
             {
                 
                
-                Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NTUzMDM5QDMxMzkyZTM0MmUzMGx5QndVWVI3dnNnYTI5UWVoVlNrd2U0ckpDbjRTbFpBRU1NYTdVSWdzRW89");
+                Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("your key");
                 //create directories if not exist, eg: C:\Users\<User>\AppData\Local
                 Directory.CreateDirectory(Constants.CommonPaths.AppDataDir);
                 Directory.CreateDirectory(Constants.CommonPaths.LogDir);
