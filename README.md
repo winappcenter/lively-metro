@@ -4,7 +4,7 @@ This is a fork of Lively (https://github.com/rocksdanister/lively).
 We created this branch to add some functionality that users might use.
 And we will use different interface frameworks to optimize the user experience
 ## Download
-[![Get Frome Windows Store](https://www.winappcenter.com/d/file/2021-12-31/644f9e8fe951e24b21f01ed7597a5ee9.png)](ms-windows-store://pdp/?productid=9NKKGGS3VX8G)
+[![Get Frome Windows Store](https://www.winappcenter.com/d/file/2021-12-31/644f9e8fe951e24b21f01ed7597a5ee9.png)](https://www.microsoft.com/ja-jp/p/lively-wallpaper-metro/9nkkggs3vx8g?activetab=pivot:overviewtab)
 
 ## Screenshot
  <img src="/resources/screenshots/1.png" width="600" height="338"/>
