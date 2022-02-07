@@ -12,6 +12,7 @@ And we will use different interface frameworks to optimize the user experience
 Lively is the only animated desktop wallpaper application that you will need.
 
 <img src="/resources/screenshots/2.png" width="600" height="338"/>
+<img src="/resources/screenshots/3.png" width="600" height="338"/>
 
 ## Contents
 - [About and Tutorials](https://www.winappcenter.com/products/ecms/lively-metro/)
