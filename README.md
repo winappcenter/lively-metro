@@ -89,4 +89,4 @@ or buy me a coffee
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/winappcenter2021q)
 
 ## License
-Lively v1.0 onwards is licensed under GPL-3.
+Licensed under GPL-3.
