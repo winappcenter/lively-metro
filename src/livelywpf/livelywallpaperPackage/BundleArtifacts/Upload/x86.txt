@@ -1,0 +1,2 @@
+MainPackage=F:\projects\lively\src\livelywpf\livelywallpaperPackage\bin\x86\Release\Upload\livelywallpaperPackage_2.0.2.0_x86.msix
+SymbolPackage=F:\projects\lively\src\livelywpf\livelywallpaperPackage\bin\x86\Release\Upload\livelywallpaperPackage_2.0.2.0\livelywallpaperPackage_2.0.2.0_x86.appxsym

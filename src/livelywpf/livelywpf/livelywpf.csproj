@@ -1,0 +1,227 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <StartupObject>livelywpf.Program</StartupObject>
+    <ApplicationIcon>Resources\appicon.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.7.8.3</AssemblyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appicon.ico" />
+    <None Remove="Ffmpeg\avcodec-58.dll" />
+    <None Remove="Ffmpeg\avdevice-58.dll" />
+    <None Remove="Ffmpeg\avfilter-7.dll" />
+    <None Remove="Ffmpeg\avformat-58.dll" />
+    <None Remove="Ffmpeg\avutil-56.dll" />
+    <None Remove="Ffmpeg\ffmpeg.exe" />
+    <None Remove="Ffmpeg\ffplay.exe" />
+    <None Remove="Ffmpeg\ffprobe.exe" />
+    <None Remove="Ffmpeg\postproc-55.dll" />
+    <None Remove="Ffmpeg\swresample-3.dll" />
+    <None Remove="Ffmpeg\swscale-5.dll" />
+    <None Remove="Helpers\DesktopWallpaper.cs~RF689195a.TMP" />
+    <None Remove="Nlog.config" />
+    <None Remove="office-lighting-help.png" />
+    <None Remove="office-lighting-review.png" />
+    <None Remove="Resources\appicon.ico" />
+    <None Remove="Resources\appicon_96.png" />
+    <None Remove="Resources\appicon_gray.ico" />
+    <None Remove="Resources\icons8-bug-50.png" />
+    <None Remove="Resources\icons8-close-window-96.ico" />
+    <None Remove="Resources\icons8-close-window-96.png" />
+    <None Remove="Resources\icons8-delete-52.png" />
+    <None Remove="Resources\icons8-heart-48.png" />
+    <None Remove="Resources\icons8-heart-96.png" />
+    <None Remove="Resources\icons8-helping-hand-96.png" />
+    <None Remove="Resources\icons8-home-64.png" />
+    <None Remove="Resources\icons8-home-page-96.ico" />
+    <None Remove="Resources\icons8-home-page-96.png" />
+    <None Remove="Resources\icons8-pause-52.png" />
+    <None Remove="Resources\icons8-pause-96.png" />
+    <None Remove="Resources\tutorial_systray.png" />
+    <None Remove="Views\Pages\VideoCutterView.xaml.cs~RFb3ab7b.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="DesktopBridge.Helpers" Version="1.2.2" />
+    <PackageReference Include="Downloader" Version="2.3.0" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.2.0" />
+    <PackageReference Include="H.Hooks" Version="1.4.14" />
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="8.6.1" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1054.31" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.22000.196" />
+    <PackageReference Include="ModernWpfUI" Version="0.9.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NLog" Version="4.7.12" />
+    <PackageReference Include="Octokit" Version="0.50.0" />
+    <PackageReference Include="PixiEditor.ColorPicker" Version="3.1.0" />
+    <PackageReference Include="RawInput.Sharp" Version="0.0.4" />
+    <PackageReference Include="ScreenRecorderLib" Version="3.1.2" />
+    <PackageReference Include="Sentinel.NLogViewer" Version="1.3.3" />
+    <PackageReference Include="SharpZipLib" Version="1.3.3" />
+    <PackageReference Include="Syncfusion.SfNavigationDrawer.WPF" Version="19.4.0.38" />
+    <PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="19.4.0.38" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="19.4.0.38" />
+    <PackageReference Include="Syncfusion.Themes.MaterialDark.WPF" Version="19.4.0.38" />
+    <PackageReference Include="Syncfusion.Themes.MaterialLight.WPF" Version="19.4.0.38" />
+    <PackageReference Include="Syncfusion.Themes.Metro.WPF" Version="19.4.0.38" />
+    <PackageReference Include="YoutubeExplode" Version="6.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="appicon.ico" />
+    <Resource Include="office-lighting-help.png" />
+    <Resource Include="office-lighting-review.png" />
+    <Resource Include="Resources\appicon.ico" />
+    <Resource Include="Resources\appicon_96.png" />
+    <Resource Include="Resources\appicon_gray.ico" />
+    <Resource Include="Resources\icons8-bug-50.png" />
+    <Resource Include="Resources\icons8-close-window-96.ico" />
+    <Resource Include="Resources\icons8-close-window-96.png" />
+    <Resource Include="Resources\icons8-delete-52.png" />
+    <Resource Include="Resources\icons8-heart-48.png" />
+    <Resource Include="Resources\icons8-heart-96.png" />
+    <Resource Include="Resources\icons8-helping-hand-96.png" />
+    <Resource Include="Resources\icons8-home-64.png" />
+    <Resource Include="Resources\icons8-home-page-96.ico" />
+    <Resource Include="Resources\icons8-home-page-96.png" />
+    <Resource Include="Resources\icons8-pause-52.png" />
+    <Resource Include="Resources\icons8-pause-96.png" />
+    <Resource Include="Resources\tutorial_systray.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Icons.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Icons.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Icons.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Icons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.zh.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Docs\drag_drop_animation.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Docs\license.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Docs\attribution.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Microsoft.VCRTForwarders.140" Version="1.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\rocks\.nuget\packages\microsoft.web.webview2\1.0.781-prerelease\build\\..\runtimes\win-x86\native\WebView2Loader.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\rocks\.nuget\packages\microsoft.web.webview2\1.0.781-prerelease\build\\..\runtimes\win-x86\native\WebView2Loader.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="plugins\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="plugins\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bundle\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\MainWindow.xaml-ori.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Views\MainWindow-ori.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Ffmpeg\avcodec-58.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\avdevice-58.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\avfilter-7.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\avformat-58.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\avutil-56.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\ffmpeg.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\ffplay.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\ffprobe.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\postproc-55.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\swresample-3.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Ffmpeg\swscale-5.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Text.Json">
+      <HintPath>..\packages\System.Text.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

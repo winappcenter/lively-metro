@@ -1,0 +1,34 @@
+﻿<Controls:MetroWindow x:Class="TrineZip.RemindManual"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrineZip"
+        mc:Ignorable="d"
+         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                     
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" TitleCharacterCasing="Normal"    
+                      BorderThickness="1"
+                      BorderBrush="Blue" ResizeMode="NoResize"
+        Title="Online Tutorial for You" Height="230" Width="400" FontSize="16"     WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.Blue.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Image Source="office-lighting-help.png" Margin="1,1,1,1" Stretch="UniformToFill"/>
+        <Button Content="Read" HorizontalAlignment="Left" Margin="274,133,0,0" VerticalAlignment="Top" Width="75" Height="40" FontSize="15" Controls:ControlsHelper.ContentCharacterCasing="Normal"
+                Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.MenuBarBrushKey}}"
+                Click="Review_click"/>
+        <Button Content="No" HorizontalAlignment="Left" Margin="57,133,0,0"  VerticalAlignment="Top" Width="75" Height="40"  Click="Cancel_Click"/>
+
+        <CheckBox x:Name="checkshow"  HorizontalAlignment="Left" Margin="10,163,0,5"   Cursor="Hand" VerticalAlignment="Center"   Click="Checkbox_Click" Height="31" Content="Don't show tutorial popup again."  >
+
+        </CheckBox>
+    </Grid>
+</Controls:MetroWindow>

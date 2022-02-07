@@ -1,0 +1,36 @@
+﻿<Controls:MetroWindow x:Class="TrineZip.ReviewUs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrineZip"
+        mc:Ignorable="d"
+         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                     
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks" TitleCharacterCasing="Normal"
+        Title="Do You Like This?" Height="250" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.Blue.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Image Source="office-lighting-review.png" Stretch="UniformToFill" Margin="1,1,1,1">
+
+        </Image>
+        <StackPanel Orientation="Vertical">
+        </StackPanel>
+        <Button Content="Review" HorizontalAlignment="Left" Background="#007acc" Cursor="Hand" Margin="259,139,0,0"  Controls:ControlsHelper.ContentCharacterCasing="Normal"
+                FontSize="18" Foreground="White" VerticalAlignment="Top" Width="100" Height="40" Click="Review_click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left"  Margin="28,139,0,0" Height="40" Controls:ControlsHelper.ContentCharacterCasing="Normal" 
+                FontSize="18" Cursor="Hand" VerticalAlignment="Top" Width="100" Click="Cancel_Click"/>
+        <CheckBox x:Name="checkshow"  HorizontalAlignment="Left" Margin="10,180,0,5"  Cursor="Hand" VerticalAlignment="Center"   
+                  Click="Checkbox_Click" Height="31" Content="Don't show this popup again."  >
+
+        </CheckBox>
+    </Grid>
+</Controls:MetroWindow>
