@@ -5,9 +5,13 @@ We created this branch to add some functionality that users might use.
 And we will use different interface frameworks to optimize the user experience
 ## Download
 [![Get Frome Windows Store](https://www.winappcenter.com/d/file/2021-12-31/644f9e8fe951e24b21f01ed7597a5ee9.png)](ms-windows-store://pdp/?productid=9NKKGGS3VX8G)
- 
+ <img src="/resources/screenshots/1.png" width="600" height="338"/>
+
+Lively is the only animated desktop wallpaper application that you will need.
+
+<img src="/resources/screenshots/2.png" width="600" height="338"/>
 ## Contents
-- [About](https://www.winappcenter.com/products/ecms/lively-metro/)
+- [About and Tutorials](https://www.winappcenter.com/products/ecms/lively-metro/)
 - [Features](#features)
 - [Download](https://www.winappcenter.com/products/ecms/lively-metro/)
 - [Contributing](#contributing)
@@ -16,57 +20,38 @@ And we will use different interface frameworks to optimize the user experience
 - ## Features
 
 #### Videos / GIFs
-<img src="/resources/wallpaper_video.gif" width="600" height="338"/>
 
-<a href="https://visualdon.uk/project/eternal-light/">Eternal Light</a> by VISUALDON
 * Powered by mpv / vlc player.
 * Customize videos with filters.
 * Hardware Acceleration supported.
 * Supports integer scaler for sharp image.
 #### Webpages
-<img src="/resources/wallpaper_html.gif" width="600" height="338"/>
 
-<a href="http://louie.co.nz/25th_hour/"> 25th Hour</a> by Loius Coyle
 * Load HTML file or web address as wallpaper.
 * Runs webgl, javascript.. basically anything that works on chrome.
 * Audio Reactive Wallpaper support.
 #### Video Streams
-<img src="/resources/wallpaper_yt.gif" width="600" height="338"/>
-
 * Just drag & drop stream links.
 * Adjustable video quality.
 * Autofills wallpaper data.
 #### Shaders
-<img src="/resources/wallpaper_shadertoy.gif" width="600" height="338"/>
-
-<a href="https://www.shadertoy.com/view/ltffzl">Heartfelt </a> by BigWIngs
 * Run GLSL shaders in browser.
 * Custom shader renderer (coming soon.)
 * Shadertoy.com urls are supported as wallpaper.
-#### Games & Applications
-<img src="/resources/wallpaper_emulator.gif" width="600" height="338"/>
-
-* Support Unity, Godot games as wallpaper.
-* Limited support for gui applications as wallpaper.
-* [Learn more..](https://github.com/rocksdanister/lively/wiki/Application-Wallpaper)
 #### Screensavers
-<img src="/resources/screen_saver.gif" width="600" height="338"/>
-
 * Lively supports Windows screensaver.
 * Any wallpaper can be used as screensaver.
 * Multiple monitor supported.
-* [Learn more..](https://github.com/rocksdanister/lively/wiki/Screen-Saver)
-#### Automation
-<img src="/resources/cmd_rm.gif" width="600" height="338"/>
 
+#### Automation
 * Lively can be controlled with command line arguments from terminal.
 * Can be paired with third party scripting software like AutoHotkey.
 #### Taskbar Customization
-<img src="/resources/taskbar_theme.gif" width="600" height="338"/>
+
 
 * Several system taskbar theme : Clear, Blur, Fluent..
 * Can adapt taskbar color based on live wallpaper color.
-* [Learn more..](https://github.com/rocksdanister/lively/wiki/Taskbar)
+
 #### & more
 - Easy to use; Just drag'n'drop media files & webpages into lively window to set it as wallpaper.
 - Hardware accelerated video playback, powered by mpv player.
