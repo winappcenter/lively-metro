@@ -18,7 +18,7 @@ Lively is the only animated desktop wallpaper application that you will need.
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
-- ## Features
+## Features
 
 #### Videos / GIFs
 
